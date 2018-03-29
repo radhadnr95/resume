@@ -1,0 +1,35 @@
+{
+"basics":{
+  "photo":"image.png",
+  "name":"Radha",
+  "email":"radhadnr1995@gmail.com",
+  "pno":"9000000000",
+  "address":"mooluru"
+
+},
+"career":{
+  "info":"I am seeking an entry-level position in a vibrant and interesting organisation that will encourage me to enhance my creative and technical knowledge, and allow me to learn and use innovative new skills and concepts"
+},
+"education":[
+  {
+  "course":"MCA",
+  "college":"svpcet,puttur",
+  "data":["2015-2018","81.6%"]
+},
+{
+"course":"B.sc",
+"college":"VIJETHA DEGREE COLLEGE,CHITTOR",
+"data":["2012-2015","83.6%"]
+},
+{
+"course":"INTERMEDITE",
+"college":"GIRVANI JR COLLEGE,CHITTOR",
+"data":["2010-2012","81.6%"]
+},
+{
+"course":"SSC",
+"college":"Z.P.HIGH SCHOOL,S.R.PURAM",
+"data":["2010","79.6%"]
+}
+]
+}

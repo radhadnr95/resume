@@ -1,5 +1,106 @@
-.main{
-  color:red;
-  font-family:arial;
 
+.flex-parent{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+
+}
+.profile{
+  width: 30%;
+  background:white;
+  padding: 1%;
+  margin: 1%;
+  border:2px solid black;
+  border-radius: 20px;
+}
+.content{
+  width: 70%;
+  background:white;
+  padding: 1%;
+  margin: 1%;
+  border:black;
+  border-radius: 20px;
+}
+body{
+  background:maroon;
+}
+img{
+  width:100px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (min-device-width:320px) and (max-device-width:480px){
+  .flex-parent{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
+  }
+  .profile{
+    width: 100%;
+    background:white;
+    padding: 1%;
+    margin: 1%;
+    border:2px solid black;
+    border-radius: 20px;
+  }
+  .content{
+    width: 100%;
+    background:white;
+    padding: 1%;
+    margin: 1%;
+    border:black;
+    border-radius: 20px;
+  }
+
+}
+@media only screen and (min-device-width:481px) and (max-device-width:768px){
+  .flex-parent{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
+  }
+  .profile{
+    width: 100%;
+    background:white;
+    padding: 1%;
+    margin: 1%;
+    border:black;
+    border-radius: 20px;
+  }
+  .content{
+    width: 100%;
+    background:white;
+    padding: 1%;
+    margin: 1%;
+    border:2px solid black;
+    border-radius: 20px;
+  }
+}
+@media only screen and (min-device-width:769px) and (max-device-width:1024px){
+  .flex-parent{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
+  }
+  .profile{
+    width: 100%;
+    background:white;
+    padding: 1%;
+    margin: 1%;
+    border:2px solid black;
+    border-radius: 20px;
+  }
+  .content{
+    width: 100%;
+    background:white;
+    padding: 1%;
+    margin: 1%;
+    border:black;
+    border-radius: 20px;
+  }
 }
